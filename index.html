@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main>
+        <div id="players" class="">
+            <div id="player1" class="player bounce">
+                <div class="player-img"></div>
+                <div class="player-name">You</div>
+            </div>
+            <div id="player2" class="player bounce">
+                <div class="player-img"></div>
+                <div class="player-name">Waiting</div>
+            </div>
+        </div>
+        <div id="grid">
+            <div data-index="1" class="grid-cell"></div>
+            <div data-index="2" class="grid-cell"></div>
+            <div data-index="3" class="grid-cell"></div>
+            <div data-index="4" class="grid-cell"></div>
+            <div data-index="5" class="grid-cell"></div>
+            <div data-index="6" class="grid-cell"></div>
+            <div data-index="7" class="grid-cell"></div>
+            <div data-index="8" class="grid-cell"></div>
+            <div data-index="9" class="grid-cell"></div>
+        </div>
+        <div id="wonMsg">
+            <div class="msg-text">
+                You Won
+            </div>
+            <div id="restart-btn">
+                Restart Game
+            </div>
+        </div>
+    </main>
+
+    <script src="app.js"></script>
+</body>
+</html>
